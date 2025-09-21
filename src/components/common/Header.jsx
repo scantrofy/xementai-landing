@@ -66,17 +66,6 @@ const Header = () => {
                 Our USP
               </a>
               <a 
-                href="#testimonials" 
-                className="text-base text-[#00000099] hover:text-[#000000] transition-colors"
-                style={{
-                  fontFamily: 'DM Sans',
-                  fontWeight: '400',
-                  lineHeight: '21px'
-                }}
-              >
-                Testimonials
-              </a>
-              <a 
                 href="#tools" 
                 className="text-base text-[#00000099] hover:text-[#000000] transition-colors"
                 style={{
@@ -86,6 +75,17 @@ const Header = () => {
                 }}
               >
                 Tools
+              </a>
+              <a 
+                href="#testimonials" 
+                className="text-base text-[#00000099] hover:text-[#000000] transition-colors"
+                style={{
+                  fontFamily: 'DM Sans',
+                  fontWeight: '400',
+                  lineHeight: '21px'
+                }}
+              >
+                Testimonials
               </a>
               <Button 
                 text="Explore Now"

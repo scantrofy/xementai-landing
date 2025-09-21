@@ -4,7 +4,7 @@ const SolutionsSection = () => {
   const solutions = [
     {
       id: 1,
-      title: "AI-Driven Energy Optimization (Vertex AI)",
+      title: "AI-Driven Energy<br/>Optimization (Vertex AI)",
       description: [
         "Regression model predicts energy use from plant parameters",
         "Validates Gemini recommendations with predictive energy savings (%)"
@@ -20,7 +20,7 @@ const SolutionsSection = () => {
     },
     {
       id: 3,
-      title: "Anomaly Detection (Rule-based + AI)",
+      title: "Anomaly Detection<br/>(Rule-based + AI)",
       description: [
         "Flags low grinding efficiency or abnormal kiln temps early",
         "Prevents downtime and maintains process stability"
@@ -28,7 +28,7 @@ const SolutionsSection = () => {
     },
     {
       id: 4,
-      title: "Scenario Simulation (Fuel Mix Simulator)",
+      title: "Scenario Simulation<br/>(Fuel Mix Simulator)",
       description: [
         "Interactive tool to simulate alternative fuel substitution (0–60%)",
         "Shows energy & CO₂ impact, supporting sustainability targets"
@@ -52,7 +52,7 @@ const SolutionsSection = () => {
           {/* Solutions Header */}
           <div className="flex flex-col items-center gap-4 text-center">
             <button 
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors cursor-default"
               style={{
                 fontSize: '14px',
                 fontFamily: 'DM Sans',
@@ -72,7 +72,7 @@ const SolutionsSection = () => {
                 color: '#1e293c'
               }}
             >
-              One AI Platform Complete Cement Plant Transformation.
+              One AI Platform Complete<br/>Cement Plant Transformation.
             </h2>
 
             <p 
@@ -104,9 +104,8 @@ const SolutionsSection = () => {
                       lineHeight: '31px',
                       color: '#07050e'
                     }}
-                  >
-                    {solution?.title}
-                  </h3>
+                    dangerouslySetInnerHTML={{ __html: solution?.title }}
+                  />
                   <ul className="text-base leading-6 space-y-2">
                     {solution?.description?.map((point, index) => (
                       <li 
@@ -129,9 +128,9 @@ const SolutionsSection = () => {
           </div>
 
           {/* USP Section */}
-          <div className="flex flex-col items-center gap-4 text-center mt-16 sm:mt-20">
+          <div id="usp" className="flex flex-col items-center gap-4 text-center mt-16 sm:mt-20">
             <button 
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors cursor-default"
               style={{
                 fontSize: '14px',
                 fontFamily: 'DM Sans',
@@ -151,11 +150,11 @@ const SolutionsSection = () => {
                 color: '#1e293c'
               }}
             >
-              What Makes Us the #1 Choice for Cement Plant Optimization
+              What Makes Us the #1 Choice for<br/>Cement Plant Optimization
             </h2>
 
             <p 
-              className="text-base sm:text-lg leading-6 text-center max-w-3xl"
+              className="text-base sm:text-lg leading-6 text-center max-w-3xl lg:whitespace-nowrap"
               style={{
                 fontFamily: 'DM Sans',
                 fontWeight: '300',

@@ -7,7 +7,7 @@ const CTASection = () => {
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col items-center gap-8 sm:gap-10 text-center">
           {/* Main Content */}
-          <div className="w-full max-w-[600px] flex flex-col items-center gap-6">
+          <div className="w-full max-w-[700px] flex flex-col items-center gap-6">
             <h2 
               className="text-[28px] sm:text-[36px] md:text-[44px] lg:text-[54px] leading-tight sm:leading-tight md:leading-tight lg:leading-[60px] text-center"
               style={{
@@ -16,7 +16,7 @@ const CTASection = () => {
                 color: '#1e293c'
               }}
             >
-              Ready to Transform Your Cement Operations?
+              Ready to Transform<br/>Your Cement Operations?
             </h2>
 
             <p 

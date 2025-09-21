@@ -35,7 +35,7 @@ const TestimonialsSection = () => {
           {/* Section Header */}
           <div className="flex flex-col items-center gap-4 text-center">
             <button 
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors cursor-default"
               style={{
                 fontSize: '14px',
                 fontFamily: 'DM Sans',
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
                 color: '#1e293c'
               }}
             >
-              Trusted by Leading Cement Manufacturers Across India
+              Trusted by Leading Cement<br/>Manufacturers Across India
             </h2>
 
             <p 
@@ -66,7 +66,7 @@ const TestimonialsSection = () => {
                 color: '#010d3e'
               }}
             >
-              See how concrete.ai is transforming operations and delivering measurable results for India's top cement producers
+              See how concrete.ai is transforming operations and delivering measurable <br className="hidden lg:block"/>results for India's top cement producers
             </p>
           </div>
 

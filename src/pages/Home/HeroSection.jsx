@@ -4,16 +4,16 @@ import Button from '../../components/ui/Button';
 const HeroSection = () => {
   return (
     <section 
-      className="relative w-full min-h-screen bg-white"
+      className="relative w-full bg-white"
     >
       
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-20">
-        <div className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 md:py-20">
+        <div className="flex flex-col items-center justify-center py-12 sm:py-16 md:py-20">
           {/* Hero Content */}
-          <div className="flex flex-col items-center gap-8 sm:gap-10 text-center max-w-4xl">
+          <div className="flex flex-col items-center gap-5 text-center max-w-4xl">
             {/* Badge */}
             <button 
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors cursor-default"
               style={{
                 fontSize: '14px',
                 fontFamily: 'DM Sans',

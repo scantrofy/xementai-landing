@@ -42,7 +42,7 @@ const ProblemsSection = () => {
           {/* Section Header */}
           <div className="flex flex-col items-center gap-4 text-center">
             <button 
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors cursor-default"
               style={{
                 fontSize: '14px',
                 fontFamily: 'DM Sans',
@@ -62,11 +62,11 @@ const ProblemsSection = () => {
                 color: '#1e293c'
               }}
             >
-              The Cement Industry's $50 Billion Energy Crisis
+              The Cement Industry's $50 Billion<br />Energy Crisis
             </h2>
 
             <p 
-              className="text-base sm:text-lg leading-6 text-center max-w-3xl"
+              className="text-base sm:text-lg leading-6 text-center max-w-3xl lg:whitespace-nowrap"
               style={{
                 fontFamily: 'DM Sans',
                 fontWeight: '300',

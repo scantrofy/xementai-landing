@@ -2,7 +2,7 @@ import React from 'react';
 
 const DashboardSection = () => {
   return (
-    <section className="w-full bg-white relative min-h-screen" style={{
+    <section className="w-full bg-white relative" style={{
       backgroundImage: "url('/assets/images/background-vector.svg')",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -10,7 +10,7 @@ const DashboardSection = () => {
     }}>
     <div>
         <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[100px]">
-          <div className="flex justify-center py-8 sm:py-12 md:py-16">
+          <div className="flex justify-center pb-8 sm:pb-12 md:pb-16">
             <div className="w-full max-w-[1094px]">
               <img 
                 src="/assets/images/overview-screen.jpeg" 

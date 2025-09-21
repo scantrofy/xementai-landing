@@ -32,7 +32,7 @@ const ToolsSection = () => {
           {/* Section Header */}
           <div className="flex flex-col items-center gap-4 text-center px-8 sm:px-14">
             <button 
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center px-6 sm:px-8 py-2 border border-[#22222219] rounded-[18px] bg-white hover:bg-gray-50 transition-colors cursor-default"
               style={{
                 fontSize: '14px',
                 fontFamily: 'DM Sans',
