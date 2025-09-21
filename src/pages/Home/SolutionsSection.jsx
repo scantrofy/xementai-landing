@@ -162,7 +162,7 @@ const SolutionsSection = () => {
                 color: '#010d3e'
               }}
             >
-              Specialized cement expertise, proven Google AI stack, and measurable ROI in under 18 months
+              Specialized cement expertise, and proven Google AI stack
             </p>
           </div>
         </div>
