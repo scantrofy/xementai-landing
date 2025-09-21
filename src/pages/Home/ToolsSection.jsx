@@ -4,18 +4,24 @@ const ToolsSection = () => {
   const tools = [
     {
       id: 1,
+      name: "Google Cloud Platform",
+      image: "/assets/images/google-cloud-logo.png",
+      hasBackground: true
+    },
+    {
+      id: 2,
       name: "Vertex AI",
       image: "/assets/images/vertex-ai-logo.png",
       hasBackground: true
     },
     {
-      id: 2,
+      id: 3,
       name: "Gemini",
       image: "/assets/images/gemini-logo.png",
-      hasBackground: false
+      hasBackground: true
     },
     {
-      id: 3,
+      id: 4,
       name: "Big Query",
       image: "/assets/images/bigquery-logo.png",
       hasBackground: true
@@ -69,22 +75,20 @@ const ToolsSection = () => {
           </div>
 
           {/* Tools Grid */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-[14px] w-full max-w-[400px] mx-auto">
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-[14px] w-full max-w-[500px] mx-auto">
             {tools?.map((tool) => (
               <div 
                 key={tool?.id}
                 className={`flex items-center justify-center w-[100px] h-[100px] ${
                   tool?.hasBackground 
-                    ? 'bg-white border border-[#f7f7f7] rounded-[16px] p-3' 
-                    : ''
+                    ? 'bg-white border border-[#f7f7f7] rounded-[16px] p-4' 
+                    : 'p-2'
                 }`}
               >
                 <img 
                   src={tool?.image}
                   alt={tool?.name}
-                  className={`${
-                    tool?.id === 3 ? 'w-[74px] h-[74px]' : 'w-[100px] h-[100px]'
-                  } object-contain`}
+                  className="w-[60px] h-[60px] object-contain"
                 />
               </div>
             ))}
