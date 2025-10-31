@@ -35,7 +35,7 @@ const ProblemsSection = () => {
   return (
     <section 
       id="problem"
-      className="w-full bg-gradient-to-b from-white to-[#d2dcff] py-16 sm:py-20"
+      className="w-full bg-gradient-to-b from-white to-[#d2dcff] py-16 sm:py-20 scroll-animate"
     >
       <div className="w-full max-w-[1250px] mx-auto px-4 sm:px-6 lg:px-[100px]">
         <div className="flex flex-col gap-12 sm:gap-16">

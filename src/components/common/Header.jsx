@@ -97,7 +97,7 @@ const Header = () => {
                 position=""
                 variant=""
                 size=""
-                onClick={() => window.open('https://concrete-ai.vercel.app/', '_blank', 'noopener,noreferrer')}
+                onClick={() => window.open('https://www.xementai.com/', '_blank', 'noopener,noreferrer')}
               />
             </nav>
 
@@ -170,7 +170,7 @@ const Header = () => {
                     className="w-full"
                     onClick={() => {
                       setMenuOpen(false);
-                      window.open('https://concrete-ai.vercel.app/', '_blank', 'noopener,noreferrer');
+                      window.open('https://www.xementai.com/', '_blank', 'noopener,noreferrer');
                     }}
                     border_border=""
                     text_text_transform=""

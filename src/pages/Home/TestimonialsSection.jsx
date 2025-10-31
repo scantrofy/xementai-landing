@@ -19,16 +19,15 @@ const TestimonialsSection = () => {
     {
       id: 3,
       name: "Vikram Singh",
-      position: "Chief Officer, Shree Cement",
       avatar: "/assets/images/vikram-singh.png",
-      testimonial: "The cross-process optimization is remarkable. Our clinker factor improved by 12%, and we successfully increased alternative fuel usage from 8% to 28% without compromising production quality."
+      testimonial: "The cross-process optimization is remarkable. Our clinker factor improved by 12%, and we successfully Increased alternative fuel usage from 8% to 28% without compromising production quality."
     }
   ];
 
   return (
     <section 
       id="testimonials"
-      className="w-full bg-white py-16 sm:py-20"
+      className="w-full bg-white py-16 sm:py-20 scroll-animate"
     >
       <div className="w-full max-w-[1250px] mx-auto px-4 sm:px-6 lg:px-[100px]">
         <div className="flex flex-col gap-12 sm:gap-16">

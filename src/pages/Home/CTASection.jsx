@@ -3,7 +3,7 @@ import Button from '../../components/ui/Button';
 
 const CTASection = () => {
   return (
-    <section className="w-full bg-gradient-to-b from-white to-[#d2dcff] py-12 sm:py-16">
+    <section className="w-full bg-gradient-to-b from-white to-[#d2dcff] py-12 sm:py-16 scroll-animate">
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col items-center gap-8 sm:gap-10 text-center">
           {/* Main Content */}
@@ -49,7 +49,7 @@ const CTASection = () => {
             variant="primary"
             size="medium"
             className=""
-            onClick={() => window.open('https://concrete-ai.vercel.app/', '_blank', 'noopener,noreferrer')}
+            onClick={() => window.open('https://www.xementai.com/', '_blank', 'noopener,noreferrer')}
           />
         </div>
       </div>

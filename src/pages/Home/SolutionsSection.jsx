@@ -4,34 +4,56 @@ const SolutionsSection = () => {
   const solutions = [
     {
       id: 1,
-      title: "AI-Driven Energy<br/>Optimization (Vertex AI)",
+      title: "AI-Driven Energy Optimization (Vertex AI)",
       description: [
-        "Regression model predicts energy use from plant parameters",
-        "Validates Gemini recommendations with predictive energy savings (%)"
+        "Regression model predicts energy use from live plant parameters.",
+        "Validates Gemini recommendations with predictive energy savings (%) and accuracy scoring.",
+        "Continuously improves through retraining on new process data."
       ]
     },
     {
       id: 2,
       title: "Generative AI Recommendations (Gemini)",
       description: [
-        "Provides actionable, human-readable process adjustments (e.g., reduce kiln temp by X°C)",
-        "Outputs suggestions for easy integration into control systems"
+        "Provides actionable, human-readable process adjustments (e.g., reduce kiln temp by X °C).",
+        "Suggests multi-parameter optimizations balancing quality, energy, and sustainability.",
+        "Outputs results as structured JSON for direct integration into control systems."
       ]
     },
     {
       id: 3,
-      title: "Anomaly Detection<br/>(Rule-based + AI)",
+      title: "Anomaly Detection (Rule-based + AI)",
       description: [
-        "Flags low grinding efficiency or abnormal kiln temps early",
-        "Prevents downtime and maintains process stability"
+        "Flags low grinding efficiency, excessive kiln temperatures, or abnormal fan speed early.",
+        "Prevents downtime through proactive alerts and stability analysis.",
+        "Supports real-time notifications via email and dashboard indicators."
       ]
     },
     {
       id: 4,
-      title: "Scenario Simulation<br/>(Fuel Mix Simulator)",
+      title: "Scenario Simulation (Fuel Mix Simulator)",
       description: [
-        "Interactive tool to simulate alternative fuel substitution (0–60%)",
-        "Shows energy & CO₂ impact, supporting sustainability targets"
+        "Interactive simulator for alternative fuel substitution (0–60 %).",
+        "Visualizes energy consumption vs CO₂ impact to guide sustainable operations.",
+        "Helps plants achieve higher TSR % with minimal performance compromise."
+      ]
+    },
+    {
+      id: 5,
+      title: "Automated Reports & Performance Insights",
+      description: [
+        "Generates daily/weekly reports summarizing KPIs, anomalies, and optimization results.",
+        "Delivers reports via email to plant managers and operators automatically.",
+        "Enables exportable PDF summaries for audits and regulatory submissions."
+      ]
+    },
+    {
+      id: 6,
+      title: "Smart Chat Assistant (Gemini + BigQuery)",
+      description: [
+        "Conversational AI interface for querying plant data and insights in natural language.",
+        "Explains anomalies, trends, and optimization actions contextually.",
+        "Integrates with Firestore + Firebase Auth for personalized, real-time guidance."
       ]
     }
   ];
@@ -39,7 +61,7 @@ const SolutionsSection = () => {
   return (
     <section 
       id="solutions"
-      className="relative w-full"
+      className="relative w-full scroll-animate"
       style={{
         backgroundImage: "url('/assets/images/background-vector.svg')",
         backgroundSize: 'cover',
@@ -177,25 +199,20 @@ const SolutionsSection = () => {
         >
           <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[130px]">
             <div className="flex justify-center py-8 sm:py-12 md:py-16 -mt-16 sm:-mt-24">
-              <div className="relative w-full max-w-[1096px] rounded-[30px] overflow-hidden">
-                <img 
-                  src="/assets/images/overview-screen.jpeg" 
-                  alt="ConcreteAI USP Dashboard" 
+              <div className="relative w-full max-w-[1096px] rounded-[30px] overflow-hidden shadow-lg">
+                <iframe
+                  width="100%"
+                  height="616"
+                  src="https://www.youtube.com/embed/Wviox-Bua5o"
+                  title="Concrete.AI Demo Video"
+                  frameBorder="0"
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
                   className="rounded-[30px]"
                   style={{
-                    width: '1096px',
-                    height: '778px',
-                    objectFit: 'cover'
+                    aspectRatio: '16/9'
                   }}
-                />
-                <div className="absolute inset-0 bg-[#00000066] rounded-[30px]"></div>
-                <div className="absolute inset-0 flex items-center justify-center z-10">
-                  <img 
-                    src="/assets/images/play-button.svg" 
-                    alt="Play button" 
-                    className="w-16 h-16 sm:w-20 sm:h-20 md:w-[128px] md:h-[126px] cursor-pointer hover:scale-105 transition-transform"
-                  />
-                </div>
+                ></iframe>
               </div>
             </div>
           </div>

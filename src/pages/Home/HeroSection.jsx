@@ -4,7 +4,7 @@ import Button from '../../components/ui/Button';
 const HeroSection = () => {
   return (
     <section 
-      className="relative w-full bg-white"
+      className="relative w-full bg-white scroll-animate"
     >
       
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-20">
@@ -52,7 +52,7 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 w-full sm:w-auto">
               <a 
-                href="https://concrete-ai.vercel.app/" 
+                href="https://www.xementai.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex justify-center items-center px-[34px] py-4 bg-[#1e293c] border border-[#1e293c] rounded-[10px] hover:bg-opacity-90 transition-all cursor-pointer no-underline"

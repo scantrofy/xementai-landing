@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import Header from '../../components/common/Header';
 import Footer from '../../components/common/Footer';
@@ -12,6 +12,13 @@ import TestimonialsSection from './TestimonialsSection';
 import CTASection from './CTASection';
 
 const Home = () => {
+  useEffect(() => {
+    // Initialize scroll animations after component mounts
+    if (window.initScrollAnimations) {
+      window.initScrollAnimations();
+    }
+  }, []);
+
   return (
     <>
       <Helmet>
