@@ -22,12 +22,12 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Concrete.AI - Smart Cement Operations</title>
+        <title>XementAI - Smart Cement Operations</title>
         <meta 
           name="description" 
           content="Revolutionary AI-powered platform for cement manufacturing optimization. Reduce energy consumption by 15%, improve quality consistency, and accelerate sustainability with Google's advanced AI technologies. Trusted by leading cement manufacturers across India." 
         />
-        <meta property="og:title" content="Concrete.AI - Smart Cement Operations" />
+        <meta property="og:title" content="XementAI - Smart Cement Operations" />
         <meta property="og:description" content="Revolutionary AI-powered platform for cement manufacturing optimization. Reduce energy consumption by 15%, improve quality consistency, and accelerate sustainability with Google's advanced AI technologies. Trusted by leading cement manufacturers across India." />
       </Helmet>
 

@@ -14,7 +14,7 @@ const Header = () => {
             <div className="flex-shrink-0">
               <img 
                 src="/assets/images/concrete-ai-blue-logo.png" 
-                alt="ConcreteAI Logo" 
+                alt="XementAI Logo" 
                 className="w-[120px] sm:w-[150px] md:w-[180px] lg:w-[200px] h-auto"
               />
             </div>

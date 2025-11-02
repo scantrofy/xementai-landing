@@ -14,7 +14,7 @@ const DashboardSection = () => {
             <div className="w-full max-w-[1094px]">
               <img 
                 src="/assets/images/overview-screen.png"
-                alt="Concrete.AI Dashboard Interface - Real-time concrete production monitoring and KPIs" 
+                alt="XementAI Dashboard Interface - Real-time concrete production monitoring and KPIs" 
                 className="w-full h-auto rounded-[30px] shadow-lg pt-3 px-3"
               />
             </div>

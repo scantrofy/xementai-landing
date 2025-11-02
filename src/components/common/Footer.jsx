@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex justify-center">
             <img 
               src="/assets/images/concrete-ai-white-logo.png" 
-              alt="ConcreteAI Logo" 
+              alt="XementAI Logo" 
               className="w-[100px] sm:w-[110px] md:w-[124px] h-auto"
             />
           </div>

@@ -86,7 +86,7 @@ const HeroSection = () => {
                 variant="secondary"
                 size="medium"
                 className=""
-                onClick={() => {}}
+                onClick={() => window.open('https://www.youtube.com/watch?v=2xLt0zI86ko', '_blank')}
               />
             </div>
           </div>

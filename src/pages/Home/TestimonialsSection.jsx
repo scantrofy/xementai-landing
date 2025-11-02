@@ -7,14 +7,14 @@ const TestimonialsSection = () => {
       name: "Rajesh Sharma",
       position: "Plant Manager, UltraTech Cement",
       avatar: "/assets/images/rajesh-sharma.png",
-      testimonial: "Concrete.ai reduced our energy consumption by 18% in the first 6 months. The AI optimization of our grinding circuits alone saved us ₹2.5 crores annually. This platform has revolutionized how we manage our Rajasthan facility."
+      testimonial: "XementAI reduced our energy consumption by 18% in the first 6 months. The AI optimization of our grinding circuits alone saved us ₹2.5 crores annually. This platform has revolutionized how we manage our Rajasthan facility."
     },
     {
       id: 2,
       name: "Priya Mehta",
       position: "Operations Director, Ambuja Cement",
       avatar: "/assets/images/priya-mehta.png",
-      testimonial: "Quality consistency was our biggest challenge with varying limestone composition. Since implementing concrete.ai, our cement strength variations dropped by 35%, and customer complaints reduced to near zero."
+      testimonial: "Quality consistency was our biggest challenge with varying limestone composition. Since implementing XementAI, our cement strength variations dropped by 35%, and customer complaints reduced to near zero."
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ const TestimonialsSection = () => {
                 color: '#010d3e'
               }}
             >
-              See how concrete.ai is transforming operations and delivering measurable <br className="hidden lg:block"/>results for India's top cement producers
+              See how XementAI is transforming operations and delivering measurable <br className="hidden lg:block"/>results for India's top cement producers
             </p>
           </div>
 
